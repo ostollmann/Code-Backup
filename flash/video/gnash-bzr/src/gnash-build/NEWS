@@ -1,0 +1,360 @@
+Gnash 0.8.8
+YYYY/MM/DD
+
+Improvements since 0.8.7 release are:
+
+Gnash 0.8.7
+2010/02/15
+
+Improvements since 0.8.6 release are:
+
+ * Automatic and spontaneous screenshots support in all GUIs (Benjamin Wolsey)
+ * Significant memory savings in parsing large XML trees (Benjamin Wolsey)
+ * Significant memory savings in functions calls when super is not required
+   (Benjamin Wolsey)
+ * Enhancements in video streaming [youtube HD button and seeks]
+   (Sandro Santilli)
+ * Non blocking load of bitmaps, movies, data (Sandro Santilli)
+ * Fix use of imported library symbols (Sandro Santilli)
+ * AS2 Array handling fixed.  (Benjamin Wolsey)
+ * Refactoring to eliminate most static data and get closer to re-entrant VM.
+   (Benjamin Wolsey)
+ * SWF6 dynamic gradients tested and implemented correctly. 
+   (Benjamin Wolsey)
+ * TextFormat.getTextExtent implemented. 
+   (Benjamin Wolsey)
+ * TextField.autoSize implemented for right and center autosizing. 
+   (Benjamin Wolsey)
+
+Gnash 0.8.6
+
+Improvements since 0.8.5 release are:
+
+ * TextSnapshot, Camera, Microphone, TextField and TextFormat implemented.
+ * ASSetNative, ASSetNativeAccessor, ASconstructor implemented.
+ * New utilities for finding input devices for Camera and Microphone.
+ * Fix bitmap smoothing handling in AGG renderer (Bug #25894).
+ * Custom Gnash GTK widget.
+ * Various improvements to text handling.
+ * large-scale refactoring of object and class creation for improved
+   AS compatibility.
+ * extension of native classes now works in many cases.
+ * PyGTK module support.
+ * Native and built-in functions properly separated, more native functions
+   added.
+ * AmigaOS4 support (gui and sound handler).
+ * Fixes to XMLSocket crash and event order.
+ * Performance improvement for SDL gui (invalidated regions).
+ * Corrected timing of various AS events, fixing various SWFs that rely on them.
+ * Many minor bug fixes.
+ * Better A/V synchronization.
+ * Rudimentary AVM2 implementation when enabled.
+ * Fix in sendAndLoad forcing use of POST.
+
+2009-03-04 Rob Savoye  <rob@welcomehome.org>
+
+Gnash 0.8.5 released !
+Improvements since 0.8.4 release are:
+
+Due to better XML parsing compatibility and a minor fix to NetConnection,
+many more video sites work than in the last release. Support for new
+codecs keeps YouTube support up to date.
+
+XML parsing, Selection implementation, Sound and MovieClip fixes mean
+that many BBC Flash movies (not the BBC iPlayer) now work.
+
+Potlatch support is improved with better remoting compatibility and
+XML parsing.
+
+All of the Orisinal morning sunshine games now work due to support for
+Mixed SWF Versions runs.
+
+    * Support for saving streamed (FLV, H264, MP3 etc) and loaded (JPEG,
+      SWF, PNG, GIF) media to disk.
+    * Basic GUI warning messages when media decoding fails (usually
+      missing codecs).
+    * Added support for FLV parsing and decoding of H.264 video and
+      AAC audio.
+    * Scaled video smoothing implemented in AS and in default renderer
+      (AGG). YouTube video looks better when Gnash is running with high
+      quality or better.
+    * Support for _quality implemented with user-specified
+      override. (Presently only affects video smoothing in the default
+      renderer).
+    * Made NPAPI plugin quiet, except on plugin-specific errors (to
+      reduce .xsession-errors pollution).
+    * Implemented LoadVars.toString(), XML.send() and LoadVars.send().
+    * XML parsing made compatible (less strict), XML.xmlDecl and
+      XML.docTypeDecl implemented.
+    * XMLNode methods implemented: getPrefixForNamespace(),
+      getNamespaceForPrefix(), namespaceURI, localName, prefix. Handling
+      of attributes corrected.
+    * New GUI for KDE4 / Qt4 with SWF properties and Gnash preferences
+      dialog boxes.
+    * Corrected AS enumeration order.
+    * Fixed incorrect mouse event on double click (shouldn't exist).
+    * Implemented MovieClip.getURL(), MovieClip.attachBitmap().
+    * Implemented POST for send() and getURL() methods.
+    * Added support for parsing and decoding Speex audio in FLV files
+      using libspeex.
+    * __resolve property implemented. Fixes a Flickr Flash badge.
+    * Video.clear(), Video.width and Video.height implemented.
+    * Multiple NetStream.play() fixed.
+    * Fixed support of mixed-version swf runs.
+    * Fix decoding of RAW and UNCOMPRESSED audio with gstreamer media
+      handler
+    * Improve SWF4 compatibility.
+    * Improve compatibility in setting characters properties.
+    * NetConnection.isConnected and NetConnection connect events
+      implemented (fixes various video sites).
+    * Remoting support generally improved (NetConnection).
+    * Make initialization object available to MovieClip constructor
+      (attachMovie, duplicateMovieClip).
+    * Sound.getBytesLoaded, Sound.getBytesTotal implemented.
+    * Complete Selection class implemented. 
+
+--
+
+2008-10-13 Russ Nelson <nelson@crynwr.com>
+
+Sixth alpha release of Gnash (0.8.4).
+Improvements since 0.8.3 release are:
+
+More visible to users:
+
+    * The -d switch won't behave the same as in 0.8.3. This is a
+      temporary thing, we'll likely bring it back to its original
+      behaviour for next releases. If you're curious, -d will now
+      change heart beating rate.
+    * Support for MIT SHM X extention is disabled by default `cause
+      it broke (*grin*). We'll get it back on next release. Let us
+      know if you really notice a performance degradation on the
+      rendering side please <gnash-dev@gnu.org>. 
+    * Keep Adobe happy with our users and our users happy with us by
+      changing "Flash player" into "SWF player" everywhere.  Adobe
+      claims "Flash" as a trademark and had asked a Linux distributor
+      to fix it.
+    * The popular SWF Twitter badge now renders correctly.
+    * Fix parsing of urls containing multiple question marks 
+    * Fix support for movies embedding multiple sound streams 
+    * Support for loading PNG and GIF images added.
+    * Improved rendering of SWF movies because of the less visible
+      changes listed below.
+    * Support for writing RGB/RGBA PNG images and JPEG images.
+    * Works with Potlatch OpenStreetMap editor
+    * New 'flvdumper' utility for analyzing FLV video files.
+    * XPI packaging support for Mozilla & Firefox. 
+
+Less visible to users:
+
+    * Improved SWF version 8 support:
+      o flash.geom.Point, flash.geom.Rect, flash.geom.Matrix classes
+        implemented.
+      o flash.geom.ColorTransform almost fully implemented.
+      o flash.display.BitmapData partially implemented.
+      o flash.geom.Transform.matrix and flash.geom.Transform.ColorTransform
+        implemented.
+      o MovieClip.transform implemented, with ability to find and apply
+        MovieClip transformations.
+      o Playback of VP6F video (SWF version 8 FLV) with Ffmpeg. 
+    * Fixes and implementation of ActionScript 2 classes:
+      o NetConnection.call() implemented: initial support for flash Remoting
+      o toString() method of objects called correctly, String.split
+        implementation fixed.
+      o XMLSocket onData method implemented properly, other methods fixed.
+      o Error class implemented.
+      o XML and LoadVars sendAndLoad() now derive from a common base object
+        (loadable AS object); fixes the popular SWF Twitter badge.
+      o addRequestHeaders and contentType implemented for LoadVars and XML. 
+    * VM bugfixes and improvements:
+      o Heart beating model, allowing for fine-grained interval timers and
+        threading reduction.
+      o Frame label fix (case sensitivity).
+      o Fixes and improvements to Color and cxform.
+      o SWF matrix made faster and more compatible (golf.swf works now!)
+      o try/catch/finally ActionScript expression handled more correctly.
+      o Parse and partially use ScriptLimits tag. Handle stack limit more
+        correctly.
+      o Fixed scoping issues for SWF <= 5
+      o Bitmap characters now support alpha.
+    * Media handling improvements:
+      o Pluggable architecture for MediaHandlers (ffmpeg/gst available)
+      o Media-handler agnostic Sound and NetStream classes
+      o Numerous bug fixes in ffmpeg and gstreamer media handling
+    * SWF version 2-specific fixes:
+      o PlaceObject tag display fixed (also applies to SWFs generated with
+        some free tools)
+      o DefineButtonCxform tag implemented). 
+    * Codebase improvements:
+      o Renamed the 'server' directory to be a more accurate 'libcore'.
+        Merge 'libgeometry' into 'libbase'
+      o Keep Adobe happy with our users and our users happy with us by
+        changing "Flash player" into "SWF player" everywhere (a Linux
+        distributor received a demand letter).
+      o Numerous cleanups and changes to improve portability. 
+
+--
+
+2008-05-10 Russ Nelson <nelson@crynwr.com>
+
+Sixth alpha release of Gnash (0.8.3).
+Improvements since 0.8.2 release are:
+
+More visible to users:
+    * Native fullscreen support (from AS) implemented.
+    * Long command-line options properly supported.
+    * View detailed movie information from GTK gui.
+    * Added an option in Preferences to initially display a movie
+      as a blank ("Click here to start") screen.
+    * Added "dump" GUI to dump a movie to disk.
+    * Improved Cairo rendering performance.
+    * Fix support for OpenOffice Impress SWF exporter (malformed..)
+
+Less visible to users:
+    * Garbage Collector usage reduced where appropriate.
+    * Mouse.hide and Mouse.show implemented in GTK.
+    * ActionScript inheritance fixes:
+        o super implemented correctly (still not 100% compatible for SWF7)
+        o implements / instanceof works correctly now 
+    * FsCommands quit, fullscreen and showMenu implemented.
+    * FsCommand-to-javascript implemented (plugin).
+    * Minor ActionScript compatibility fixes: String, XML, toLocaleString,
+      int, parseInt. fromCharCode, toString (SWF4) etc.
+    * Fixes to arguments class (tests: Function.as, line404~456).
+    * Stage.scaleMode implemented (fixes resizing of various movies).
+    * Stage.align implemented.
+    * Fixes to Date class (platform consistent).
+    * Logging uses boost::format.
+    * Improved Win32 support: builds using MinGW/MSYS (cross-compile
+      not tested yet), and initial implementation of npgnash.dll exists.
+    * Sprite handling improved, fixing FlowPlayer and other video SWFs.
+    * TextField handling:
+          o Fix in device font handling (DefineFontInfo tag)
+          o Fix support for DefineFont2 tag (sizes)
+          o Improve TextField support for TextFormat use. 
+    * Fix parsing of malformed XML files
+    * Fix loading of text / XML with Byte Order Marks.
+    * Minor fix to _x and _y translation.
+    * More functions correctly registered as ASnative.
+    * System.capabilities information expanded.
+    * Jemalloc memory allocator from Mozilla added as an option.
+    * Redesigned and implemented AMF0 support, with the beginning of
+      AMF3 support.
+    * SWF8 line styles support (both from tag and drawing api) 
+
+
+--
+
+2008-02-21  Sandro Santilli <strk@keybit.net>
+
+Fifth alpha release of Gnash (0.8.2).
+Improvements since 0.8.1 release are:
+
+    * Improved timeline redesign.
+    * Action execution order fixes.
+    * Keyboard handling improved [1].
+    * New classes implemented: System.capabilities (partial),
+      SharedObject, LocalConnection.
+    * New opcodes implemented: ActionImplements, Try/Throw.
+    * Movieclip.beginGradientFill completes drawing API support.
+    * MovieClip._lockroot support added.
+    * Implement GET/POST for MovieClip.loadVariables and
+      MovieClip.loadMovie
+    * Textfield support improved.
+    * Security: configurable sandbox restricts filesystem access by movies.
+    * Better support for SWF8.
+    * Streaming OGG-contained multimedia (e.g. vorbis/theora or vorbis/dirac),
+      and other free formats.
+    * OGL and Cairo renderers much improved.
+    * Improvements of the Framebuffer GUI (hide text messages, support Linux
+      events system, built-in touchscreen calibration, simple keyboard support,
+      better architecture support).
+    * SOLdumper utility for reading SOL files ('flash cookies').
+    * DumpShm utility finds and dumps Local Connection memory segments.
+    * Fullscreen display possible.
+    * Extensions for LIRC and DBus.
+    * High quality, cross-platform psuedo-randomness using boost random.
+    * NPAPI (Mozilla) plugin: keyboard events work, navigation and javascript
+      from within movies.
+    * Set and save preferences from the GUI (GTK).
+    * Improved stability and robustness with malformed SWFs.
+    * Many other bugfixes. 
+
+--
+
+2007-08-29  Sandro Santilli <strk@keybit.net>
+
+Fourth alpha release of Gnash (0.8.1).
+Improvements since 0.8.0 release are:
+
+    * Garbage Collector
+    * Support for device fonts
+    * Support for dynamic text fields
+    * Better key handling
+    * Support for FFMPEG SVN
+    * Support for on-demand install of needed Gstreamer codec plugins.
+    * Debugger off by default (improves performance and memory use)
+    * AGG renderer by default 
+    * Support for KDE/AGG combination
+    * Layout change : we'll now build <gui>-gnash and 'gnash' is a shell
+      script with gui selection capabilities (-G)
+    * More robust parser 
+    * Better support for flash player detection
+    * Fix for 'debugLog' directive in gnashrc
+
+--
+
+2007-06-01  Rob Savoye  <rob@welcomehome.org>
+
+The third alpha release of Gnash. Improvements since the 0.7.2 release
+are: 
+
+    * Streaming video works with YouTube and Lulu.tv! This has been the
+      focus for the majority of the time since the last release.
+    * Many core improvments in the VM as our understanding of Flash
+      improves. These all improve both the correctness of a movie that is
+      being played, but enables more movies to play that used to not work.
+    * New FLTK2 gui.
+    * Simple Flash debugger added.
+    * Improved Darwin support that can use the system OpenGL.
+    * Flash extensions, direct support for file handling, MySQL access,
+      etc.. through plugins to the Gnash VM. Wrappers for any C/C++ API
+      libraries can be exported into ActionScript, and used as native
+      commands in a Flash movie.
+    * Updated manuals.
+    * Many new testcases! Support for testing with ming, swfmill, amd
+      mtasc compilers.
+    * New drawing API for MovieClips..
+    
+--
+
+2006-09-10  Rob Savoye  <rob@welcomehome.org>
+
+The second alpha release of Gnash is coming soon. Improvements since
+the 0.7.1 alpha release are:
+
+    * Polling main loop replaced with event driven framework.
+    * New GUI abstraction layer supporting GTK2, KDE, SDL, and just a
+      framebuffer. 
+    * Movies are parsed by a background thread, so they start playing
+      while still loading.
+    * Plugin supports web navigation and starts playing while the stream
+      is loading.
+    * New AntiGrain (AGG) 2D backend added for framebuffer devices.
+    * Sound now works.
+    * Supports cross configuration and cross compiling for embedded targets.
+    * A whole slew of minor bugs that kept various movies from playing.
+
+--
+
+2006-04-20  Rob Savoye  <rob@welcomehome.org>
+
+    * The first alpha release of Gnash! Version 0.7.1 is released with a
+      working browser plugin.
+
+--
+
+2005-12-10  Rob Savoye  <rob@bertha.welcomehome.org>
+
+    * GameSWF has been turned into Gnash! Gnash's goals are to turn this
+      into a free flash movie player plugin for Firefox.

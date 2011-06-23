@@ -1,0 +1,103 @@
+# 
+#   Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc.
+# 
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 3 of the License, or
+# (at your option) any later version.
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+# 
+
+# # Build an RPM package targeted to the OLPC http://www.laptop.org.
+# olpc: dist-gzip $(srcdir)/packaging/redhat/gnash.spec
+# 	cp -f $(srcdir)/packaging/redhat/gnash.spec /usr/src/redhat/SPECS/
+# 	cp -f gnash-$(VERSION).tar.gz /usr/src/redhat/SOURCES/
+# 	rpmbuild -rcfile=$(srcdir)/packaging/redhat/rpmrc:/usr/lib/rpm/rpmrc \
+# 	         -ba --target=geode-olpc /usr/src/redhat/SPECS/gnash.spec
+
+RPMBUILD_FLAGS = # --clean --rmsource --rmspec
+
+gnash.spec spec: $(srcdir)/packaging/redhat/gnash.spec
+	snapshot_version="$(SNAPSHOT_VERSION)"; \
+	snapshot_version=`echo $${snapshot_version}|tr "~" "_"`; \
+	distver=`cat /etc/redhat-release | cut -d ' ' -f 3`; \
+	echo "Editing the version in the spec file to be $${snapshot_version} for Distribution $${distver}..."; \
+	sed -e "s/Version.*/Version:	$${snapshot_version}/" \
+	    -e "s/Distribution:.*/Distribution:   fc$${distver}/" $(srcdir)/packaging/redhat/gnash.spec > gnash.spec; 
+
+
+# Build an Redhat/Fedora .rpm package
+# We do this by using the source snapshot that we know is 'distclean'.
+# After copying the source tarball to where rpmbuild expects it,
+# we can then build the binary package.
+# older versions of Fedora used /usr/src/redhat/{SOURCES, BUILD} for
+# everything, but the newer version appears to use one's home directory
+# instead, so now you don't have to be root to build rpm packages.
+
+# Do the entire process to build an RPM package
+rpm: distdir spec setup-rpm rpm-gnash
+
+# build everything in one pass using rpmbuild
+rpm-gnash: 
+	rpmbuild -ba $(RPMBUILD_FLAGS) --sign gnash.spec
+
+# configure the build directory, which we do by executing only the %prep stage,
+# which doesn't actually run configure
+rpm-configure: 
+	rpmbuild -bp $(RPMBUILD_FLAGS) gnash.spec
+
+# compile the build, which we do by executing only the %build stage, which
+# runs configure as the first step.
+rpm-build:
+	rpmbuild -bc --short-circuit $(RPMBUILD_FLAGS) gnash.spec
+
+# install the build, which we do by executing only the %install stage, which
+# also builds the actual rpms
+rpm-install: 
+	rpmbuild -bi --short-circuit $(RPMBUILD_FLAGS) gnash.spec
+
+# After distdir is done, all we have is an empty subdirectory
+# populated from the *_DIST variables used by Automake. RPM and Deb
+# naming conventions are similar, but just different enough that the
+# source directory and tarball names are subtely different, namely
+# Debian uses a '~' character in their version names, which rpmbuild
+# doesn't like, so for an RPM we convert it to a '_' instead. Then we
+# have to rename the subdirectory to match the new version of the
+# snapshot, and edit the configure* files to have the proper version
+# name.
+# Unlike creating a deb, which build their own source tarball, rpm
+# requires we do it ourselves, and copy it to $HOME/rpmbuild/SOURCES
+# before rpmbuild will work.
+setup-rpm: 
+	-snapshot_version="gnash-$(SNAPSHOT_VERSION)"; \
+	snapshot_version=`echo $${snapshot_version}|tr "~" "_"`; \
+	if test -d gnash-trunk; then \
+	  mv gnash-trunk $${snapshot_version}; \
+	  if test ! -f $${snapshot_version}/configure.ac.orig; then \
+	    mv -f $${snapshot_version}/configure.ac $${snapshot_version}/configure.ac.orig; \
+	    sed -e "s/AC_INIT(gnash, trunk)/AC_INIT(gnash, $${snapshot_version})/" \
+	      $${snapshot_version}/configure.ac.orig > $${snapshot_version}/configure.ac; \
+	  fi; \
+	fi; \
+	tar zcf $${snapshot_version}.tar.gz \
+	  --exclude=$${snapshot_version}/autom4te.cache \
+	  --exclude=$${snapshot_version}/configure.ac.orig \
+	  --exclude=$${snapshot_version}/configure.orig $${snapshot_version}; \
+	cp $${snapshot_version}.tar.gz $${HOME}/rpmbuild/SOURCES/
+
+# this removes old builds from the maintainer's $HOME/rpmbuild directory.
+rpmbuild-clean:
+	rm -f  ~/rpmbuild/SOURCES/gnash*
+	rm -fr ~/rpmbuild/BUILD/gnash*
+	rm -fr ~/rpmbuild/BUILDROOT/gnash*
+	rm -fr ~/rpmbuild/SRPMS/gnash*
+	rm -fr ~/rpmbuild/RPMS/i686/gnash*
+
+.PHONY : rpm redhat spec rpm-configure rpm-install rpm-build setup-rpm rpmbuild-clean

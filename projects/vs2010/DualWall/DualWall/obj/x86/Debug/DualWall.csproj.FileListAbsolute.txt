@@ -1,0 +1,10 @@
+C:\Users\ost\Code\projects\vs2010\DualWall\DualWall\bin\Debug\DualWall.exe
+C:\Users\ost\Code\projects\vs2010\DualWall\DualWall\bin\Debug\DualWall.pdb
+C:\Users\ost\Code\projects\vs2010\DualWall\DualWall\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ost\Code\projects\vs2010\DualWall\DualWall\obj\x86\Debug\DualWall.Properties.Resources.resources
+C:\Users\ost\Code\projects\vs2010\DualWall\DualWall\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\ost\Code\projects\vs2010\DualWall\DualWall\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\ost\Code\projects\vs2010\DualWall\DualWall\obj\x86\Debug\DualWall.exe
+C:\Users\ost\Code\projects\vs2010\DualWall\DualWall\obj\x86\Debug\DualWall.pdb
+C:\Users\ost\Code\projects\vs2010\DualWall\DualWall\obj\x86\Debug\DualWall.MainForm.resources
+C:\Users\ost\Code\projects\vs2010\DualWall\DualWall\obj\x86\Debug\DualWall.ProgressBox.resources

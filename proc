@@ -1,0 +1,148 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0   3916   636 ?        Ss   12:31   0:00 init [3]  
+root         2  0.0  0.0      0     0 ?        S    12:31   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    12:31   0:00 [ksoftirqd/0]
+root         4  0.0  0.0      0     0 ?        S    12:31   0:00 [kworker/0:0]
+root         6  0.0  0.0      0     0 ?        S    12:31   0:00 [migration/0]
+root         7  0.0  0.0      0     0 ?        S    12:31   0:00 [watchdog/0]
+root         8  0.0  0.0      0     0 ?        S    12:31   0:00 [migration/1]
+root         9  0.0  0.0      0     0 ?        S    12:31   0:00 [kworker/1:0]
+root        10  0.0  0.0      0     0 ?        S    12:31   0:00 [ksoftirqd/1]
+root        11  0.0  0.0      0     0 ?        S    12:31   0:00 [kworker/0:1]
+root        12  0.0  0.0      0     0 ?        S    12:31   0:00 [watchdog/1]
+root        13  0.0  0.0      0     0 ?        S    12:31   0:00 [migration/2]
+root        14  0.0  0.0      0     0 ?        S    12:31   0:00 [kworker/2:0]
+root        15  0.0  0.0      0     0 ?        S    12:31   0:00 [ksoftirqd/2]
+root        16  0.0  0.0      0     0 ?        S    12:31   0:00 [watchdog/2]
+root        17  0.0  0.0      0     0 ?        S    12:31   0:00 [migration/3]
+root        18  0.0  0.0      0     0 ?        S    12:31   0:00 [kworker/3:0]
+root        19  0.0  0.0      0     0 ?        S    12:31   0:03 [ksoftirqd/3]
+root        20  0.0  0.0      0     0 ?        S    12:31   0:00 [watchdog/3]
+root        21  0.0  0.0      0     0 ?        S    12:31   0:00 [migration/4]
+root        22  0.0  0.0      0     0 ?        S    12:31   0:00 [kworker/4:0]
+root        23  0.0  0.0      0     0 ?        S    12:31   0:00 [ksoftirqd/4]
+root        24  0.0  0.0      0     0 ?        S    12:31   0:00 [watchdog/4]
+root        25  0.0  0.0      0     0 ?        S    12:31   0:00 [migration/5]
+root        26  0.0  0.0      0     0 ?        S    12:31   0:00 [kworker/5:0]
+root        27  0.0  0.0      0     0 ?        S    12:31   0:00 [ksoftirqd/5]
+root        28  0.0  0.0      0     0 ?        S    12:31   0:00 [watchdog/5]
+root        29  0.0  0.0      0     0 ?        S<   12:31   0:00 [cpuset]
+root        30  0.0  0.0      0     0 ?        S<   12:31   0:00 [khelper]
+root        31  0.0  0.0      0     0 ?        S<   12:31   0:00 [netns]
+root        32  0.0  0.0      0     0 ?        S    12:31   0:00 [sync_supers]
+root        33  0.0  0.0      0     0 ?        S    12:31   0:00 [bdi-default]
+root        34  0.0  0.0      0     0 ?        S<   12:31   0:00 [kblockd]
+root        35  0.0  0.0      0     0 ?        S<   12:31   0:00 [kacpid]
+root        36  0.0  0.0      0     0 ?        S<   12:31   0:00 [kacpi_notify]
+root        37  0.0  0.0      0     0 ?        S<   12:31   0:00 [kacpi_hotplug]
+root        38  0.0  0.0      0     0 ?        S    12:31   0:00 [kseriod]
+root        39  0.0  0.0      0     0 ?        S    12:31   0:00 [khungtaskd]
+root        40  0.0  0.0      0     0 ?        S    12:31   0:01 [kswapd0]
+root        41  0.0  0.0      0     0 ?        SN   12:31   0:00 [ksmd]
+root        42  0.0  0.0      0     0 ?        S    12:31   0:00 [fsnotify_mark]
+root        43  0.0  0.0      0     0 ?        S<   12:31   0:00 [aio]
+root        44  0.0  0.0      0     0 ?        S<   12:31   0:00 [crypto]
+root       494  0.0  0.0      0     0 ?        S<   12:31   0:00 [ata_sff]
+root       495  0.0  0.0      0     0 ?        S    12:31   0:00 [scsi_eh_0]
+root       496  0.0  0.0      0     0 ?        S    12:31   0:01 [scsi_eh_1]
+root       497  0.0  0.0      0     0 ?        S    12:31   0:00 [scsi_eh_2]
+root       498  0.0  0.0      0     0 ?        S    12:31   0:00 [scsi_eh_3]
+root       503  0.0  0.0      0     0 ?        S    12:31   0:00 [scsi_eh_4]
+root       504  0.0  0.0      0     0 ?        S    12:31   0:00 [scsi_eh_5]
+root       506  0.0  0.0      0     0 ?        S    12:31   0:00 [kworker/u:6]
+root       507  0.0  0.0      0     0 ?        S    12:31   0:00 [scsi_eh_6]
+root       508  0.0  0.0      0     0 ?        S    12:31   0:00 [scsi_eh_7]
+root       509  0.0  0.0      0     0 ?        S    12:31   0:00 [kworker/u:7]
+root       513  0.0  0.0      0     0 ?        S    12:31   0:00 [scsi_eh_8]
+root       522  0.0  0.0      0     0 ?        S    12:31   0:00 [scsi_eh_9]
+root       525  0.0  0.0      0     0 ?        S    12:31   0:00 [kworker/3:1]
+root       526  0.0  0.0      0     0 ?        S    12:31   0:00 [kworker/4:1]
+root       532  0.0  0.0      0     0 ?        S    12:31   0:00 [kworker/1:1]
+root       533  0.0  0.0      0     0 ?        S    12:31   0:00 [kworker/2:1]
+root       534  0.0  0.0      0     0 ?        S    12:31   0:00 [kworker/5:1]
+root       558  0.0  0.0      0     0 ?        S    12:31   0:00 [jbd2/sda3-8]
+root       559  0.0  0.0      0     0 ?        S<   12:31   0:00 [ext4-dio-unwrit]
+root       591  0.0  0.0  10736  1076 ?        S<s  12:31   0:00 /sbin/udevd --daemon
+root       823  0.0  0.0      0     0 ?        S<   12:31   0:00 [edac-poller]
+root       866  0.0  0.0      0     0 ?        S<   12:31   0:00 [hd-audio0]
+root       873  0.0  0.0      0     0 ?        S<   12:31   0:00 [hd-audio1]
+root       878  0.0  0.0      0     0 ?        S    12:31   0:00 [khubd]
+root      1124  0.0  0.0      0     0 ?        S    12:31   0:00 [jbd2/sda4-8]
+root      1125  0.0  0.0      0     0 ?        S<   12:31   0:00 [ext4-dio-unwrit]
+root      1249  0.0  0.0      0     0 ?        S<   12:31   0:00 [usbhid_resumer]
+root      1385  0.0  0.0  28348   408 ?        S    12:31   0:00 supervising syslog-ng
+root      1386  0.0  0.0  62140  2792 ?        Ss   12:31   0:00 /usr/sbin/syslog-ng
+dbus      1395  0.0  0.0  13364  1512 ?        Ss   12:31   0:00 /usr/bin/dbus-daemon --system
+root      1421  0.0  0.0   6012   668 ?        Ss   12:31   0:00 /usr/sbin/crond -S -l info
+root      1425  0.0  0.0  56284  1572 tty1     Ss   12:31   0:00 /bin/login --    
+root      1426  0.0  0.0   3912   588 tty2     Ss+  12:31   0:00 /sbin/agetty -8 38400 tty2 linux
+root      1427  0.0  0.0   3912   592 tty3     Ss+  12:31   0:00 /sbin/agetty -8 38400 tty3 linux
+root      1428  0.0  0.0   3912   588 tty4     Ss+  12:31   0:00 /sbin/agetty -8 38400 tty4 linux
+root      1429  0.0  0.0   3912   588 tty5     Ss+  12:31   0:00 /sbin/agetty -8 38400 tty5 linux
+root      1430  0.0  0.0   3912   592 tty6     Ss+  12:31   0:00 /sbin/agetty -8 38400 tty6 linux
+root      1438  0.0  0.0  52528  1224 ?        Ss   12:31   0:00 /usr/sbin/sshd
+root      1440  0.0  0.0      0     0 ?        S    12:31   0:00 [flush-8:0]
+root      1455  0.0  0.0   8224   344 ?        Ss   12:31   0:00 /sbin/dhcpcd -q eth0
+root      1461  0.0  0.0 124668  3488 ?        Sl   12:32   0:00 /usr/sbin/console-kit-daemon --no-daemon
+root      1528  0.0  0.0 186076  3552 ?        Sl   12:32   0:00 /usr/lib/polkit-1/polkitd
+ost       1538  0.0  0.0  15512  2160 tty1     S    12:32   0:00 -bash
+ost       1546  0.0  0.0  13276  1696 tty1     S+   12:32   0:00 /bin/sh /usr/bin/startx
+ost       1563  0.0  0.0  15568   796 tty1     S+   12:32   0:00 xinit /home/ost/.xinitrc -- /etc/X11/xinit/xserverrc :0 -auth /tmp/serverauth.WmIjz0wbxB
+root      1564  2.4  3.2 268512 266452 tty7    S<s+ 12:32  12:08 /usr/bin/X -nolisten tcp :0 -auth /tmp/serverauth.WmIjz0wbxB
+root      1568  0.0  0.0      0     0 ?        S    12:32   0:00 [firegl]
+ost       1571  0.0  0.0  12520   644 tty1     S    12:32   0:00 ck-launch-session gnome-session
+ost       1580  0.0  0.0 224952  7536 tty1     Sl   12:32   0:00 gnome-session
+ost       1583  0.0  0.0  19844   544 tty1     S    12:32   0:00 dbus-launch --exit-with-session gnome-session
+ost       1584  0.0  0.0  14124  1828 ?        Ss   12:32   0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+ost       1589  0.0  0.0  47060  5172 ?        S    12:32   0:00 /usr/lib/GConf/gconfd-2
+ost       1595  0.0  0.3 302356 29972 ?        Ssl  12:32   0:01 /usr/bin/gnome-settings-daemon
+ost       1599  0.0  0.1 158632  9560 tty1     SLl  12:32   0:00 /usr/bin/gnome-keyring-daemon --start --components=secrets
+ost       1604  0.0  0.0  42236  2296 ?        S    12:32   0:00 /usr/lib/gvfs/gvfsd
+ost       1609  0.0  0.0  72104  2368 ?        Ssl  12:32   0:00 /usr/lib/gvfs//gvfs-fuse-daemon /home/ost/.gvfs
+ost       1613  0.0  0.1 224388 12772 tty1     Sl   12:32   0:07 metacity
+ost       1615  0.0  0.0 148172  3732 ?        S    12:32   0:00 /usr/lib/gvfs/gvfs-gdu-volume-monitor
+root      1617  0.0  0.0 127192  3816 ?        Sl   12:32   0:00 /usr/lib/udisks/udisks-daemon
+root      1618  0.0  0.0  42584   704 ?        S    12:32   0:01 udisks-daemon: polling /dev/sr0
+ost       1623  0.0  0.1 349036 14692 tty1     Sl   12:32   0:00 gnome-panel
+ost       1626  0.0  0.1 345840 10308 tty1     Sl   12:32   0:00 /usr/lib/evolution/2.32/evolution-alarm-notify
+ost       1627  0.0  0.0 217088  7592 tty1     Sl   12:32   0:00 gnome-power-manager
+ost       1628  0.0  0.1 224416 11796 tty1     S    12:32   0:00 /usr/lib/gnome-disk-utility/gdu-notification-daemon
+ost       1629  0.0  0.0 200620  5708 tty1     Sl   12:32   0:00 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+root      1634  0.0  0.0 121312  3228 ?        Sl   12:32   0:00 /usr/lib/upower/upowerd
+ost       1635  0.0  0.0 240396  7096 ?        Ss   12:32   0:01 gnome-screensaver
+ost       1656  0.0  0.0 212828  3436 ?        Ssl  12:32   0:00 /usr/lib/bonobo/bonobo-activation-server --ac-activate --ior-output-fd=23
+ost       1679  0.0  0.1 303112 14604 ?        Sl   12:32   0:04 /usr/lib/gnome-panel/wnck-applet
+ost       1681  0.0  0.5 573948 47780 ?        Sl   12:32   0:00 python2 /usr/lib/deskbar-applet/deskbar-applet --oaf-activate-iid=OAFIID:Deskbar_Applet_Factory --oaf-ior-fd=22
+ost       1683  0.0  0.1 270148  8944 ?        Sl   12:32   0:00 /usr/lib/gnome-panel/notification-area-applet
+ost       1685  0.0  0.1 402172 15956 ?        Sl   12:32   0:00 /usr/lib/gnome-panel/clock-applet
+ost       1694  0.0  0.1 363988  8696 ?        Sl   12:32   0:00 /usr/lib/evolution-data-server-1.2/e-calendar-factory
+ost       1712  0.0  0.1 362804  8832 ?        Sl   12:32   0:00 /usr/lib/evolution-data-server-1.2/e-addressbook-factory
+ost       1962  0.0  0.4 660576 38160 tty1     Sl   12:45   0:27 nautilus --no-desktop /home/ost/downloads
+root      1965  0.0  0.0 110072  2612 ?        Sl   12:45   0:00 /usr/sbin/system-tools-backends
+ost       1967  0.0  0.0 120696  3300 ?        S    12:45   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.13 /org/gtk/gvfs/exec_spaw/0
+root      1982  0.0  0.2  63368 17788 ?        S    12:45   0:00 /usr/bin/perl /usr/share/system-tools-backends-2.0/scripts/SystemToolsBackends.pl -m Platform
+ost       1988  0.0  0.0  42368  2444 ?        S    12:45   0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.13 /org/gtk/gvfs/exec_spaw/1
+ost       2022  0.0  0.0  42296  2196 ?        S    12:45   0:00 /usr/lib/gvfs/gvfsd-metadata
+ost       2615  0.2  1.4 569972 117284 tty1    SLl  13:20   0:56 /opt/google/chrome/chrome
+ost       2618  0.0  0.1 243864  9412 tty1     S    13:20   0:02 /opt/google/chrome/chrome
+ost       2620  0.0  0.1 271760 15404 tty1     S    13:20   0:00 /opt/google/chrome/chrome --type=zygote
+ost       2648  0.0  0.2 866080 23728 tty1     Sl   13:20   0:00 /opt/google/chrome/chrome --type=extension --lang=en-US --force-fieldtest=ConnCountImpact/conn_count_6/ConnnectBackupJobs/ConnectBackupJobsEnabled/DnsImpact/default_enabled_prefetch/DnsParallelism/parallel_20/GlobalSdch/global_enable_sdch/IdleSktToImpact/idle_timeout_60/Prefetch/ContentPrefetchEnabled/ProxyConnectionImpact/proxy_connections_32/SpdyCwnd/cwndMin10/SpdyImpact/npn_with_spdy/ --channel=2615.0x4d22600.1764737617
+ost       2728  0.0  0.9 919268 76808 tty1     SNl  13:22   0:14 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtest=CacheSize/CacheSizeGroup_1/CacheThrottle/CacheThrottle_Default/ConnCountImpact/conn_count_6/ConnnectBackupJobs/ConnectBackupJobsEnabled/DnsImpact/default_enabled_prefetch/DnsParallelism/parallel_20/GlobalSdch/global_enable_sdch/IdleSktToImpact/idle_timeout_60/Prefetch/ContentPrefetchEnabled/ProxyConnectionImpact/proxy_connections_32/SpdyCwnd/cwndMin10/SpdyImpact/npn_with_spdy/ --channel=2615.0x6d5b400.3395886
+ost       2867  1.3  1.2 612404 103252 tty1    SLl  13:44   5:40 /opt/google/chrome/chrome --type=plugin --plugin-path=/usr/lib/mozilla/plugins/libflashplayer.so --lang=en-US --plugin-data-dir=/home/ost/.config/google-chrome/Default --channel=2615.0x646ec00.1118124208
+ost       3205  0.0  0.0  57024  3080 ?        S    14:01   0:00 /usr/lib/gvfs/gvfsd-computer --spawner :1.13 /org/gtk/gvfs/exec_spaw/2
+root      3210  0.0  0.0  10732   956 ?        S<   14:01   0:00 /sbin/udevd --daemon
+root      3211  0.0  0.0  10732   984 ?        S<   14:01   0:00 /sbin/udevd --daemon
+ost       3421 38.3  0.7 195292 63304 tty1     SLl  19:56  16:27 skype
+ost       3474  0.0  0.3 876696 28644 tty1     SNl  19:59   0:00 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtest=CacheSize/CacheSizeGroup_1/CacheThrottle/CacheThrottle_Default/ConnCountImpact/conn_count_6/ConnnectBackupJobs/ConnectBackupJobsEnabled/DnsImpact/default_enabled_prefetch/DnsParallelism/parallel_20/GlobalSdch/global_enable_sdch/IdleSktToImpact/idle_timeout_60/Prefetch/ContentPrefetchEnabled/ProxyConnectionImpact/proxy_connections_32/SpdyCwnd/cwndMin10/SpdyImpact/npn_with_spdy/ --channel=2615.0x7939c00.2019272424
+ost       3486  0.0  0.4 882608 36136 tty1     Sl   19:59   0:00 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtest=CacheSize/CacheSizeGroup_1/CacheThrottle/CacheThrottle_Default/ConnCountImpact/conn_count_6/ConnnectBackupJobs/ConnectBackupJobsEnabled/DnsImpact/default_enabled_prefetch/DnsParallelism/parallel_20/GlobalSdch/global_enable_sdch/IdleSktToImpact/idle_timeout_60/Prefetch/ContentPrefetchEnabled/ProxyConnectionImpact/proxy_connections_32/SpdyCwnd/cwndMin10/SpdyImpact/npn_with_spdy/ --channel=2615.0x5fe7400.1566698011
+ost       3494  0.0  0.4 882892 34660 tty1     SNl  19:59   0:01 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtest=CacheSize/CacheSizeGroup_1/CacheThrottle/CacheThrottle_Default/ConnCountImpact/conn_count_6/ConnnectBackupJobs/ConnectBackupJobsEnabled/DnsImpact/default_enabled_prefetch/DnsParallelism/parallel_20/GlobalSdch/global_enable_sdch/IdleSktToImpact/idle_timeout_60/Prefetch/ContentPrefetchEnabled/ProxyConnectionImpact/proxy_connections_32/SpdyCwnd/cwndMin10/SpdyImpact/npn_with_spdy/ --channel=2615.0x4ef4000.1967641951
+ost       3502  1.1  0.8 907444 70588 tty1     SNl  20:00   0:27 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtest=CacheSize/CacheSizeGroup_1/CacheThrottle/CacheThrottle_Default/ConnCountImpact/conn_count_6/ConnnectBackupJobs/ConnectBackupJobsEnabled/DnsImpact/default_enabled_prefetch/DnsParallelism/parallel_20/GlobalSdch/global_enable_sdch/IdleSktToImpact/idle_timeout_60/Prefetch/ContentPrefetchEnabled/ProxyConnectionImpact/proxy_connections_32/SpdyCwnd/cwndMin10/SpdyImpact/npn_with_spdy/ --channel=2615.0x4d64000.721896617
+ost       3522  0.0  0.4 882396 40092 tty1     Sl   20:02   0:01 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtest=CacheSize/CacheSizeGroup_1/CacheThrottle/CacheThrottle_Default/ConnCountImpact/conn_count_6/ConnnectBackupJobs/ConnectBackupJobsEnabled/DnsImpact/default_enabled_prefetch/DnsParallelism/parallel_20/GlobalSdch/global_enable_sdch/IdleSktToImpact/idle_timeout_60/Prefetch/ContentPrefetchEnabled/ProxyConnectionImpact/proxy_connections_32/SpdyCwnd/cwndMin10/SpdyImpact/npn_with_spdy/ --channel=2615.0x8045e00.464502539
+ost       3546  0.5  0.7 912616 63820 tty1     SNl  20:02   0:12 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtest=CacheSize/CacheSizeGroup_1/CacheThrottle/CacheThrottle_Default/ConnCountImpact/conn_count_6/ConnnectBackupJobs/ConnectBackupJobsEnabled/DnsImpact/default_enabled_prefetch/DnsParallelism/parallel_20/GlobalSdch/global_enable_sdch/IdleSktToImpact/idle_timeout_60/Prefetch/ContentPrefetchEnabled/ProxyConnectionImpact/proxy_connections_32/SpdyCwnd/cwndMin10/SpdyImpact/npn_with_spdy/ --channel=2615.0x697b200.1188450045
+ost       3575  0.0  0.0 155152  5008 ?        Sl   20:09   0:00 /usr/lib/gvfs/gvfsd-http --spawner :1.13 /org/gtk/gvfs/exec_spaw/3
+ost       3613  0.0  0.2 313256 17348 tty1     Sl   20:14   0:00 gnome-terminal
+ost       3616  0.0  0.0   8056   668 tty1     S    20:14   0:00 gnome-pty-helper
+ost       3618  0.0  0.0  15616  2244 pts/0    Ss   20:14   0:00 bash
+root      3968  0.0  0.0  16280  1088 pts/0    T    20:38   0:00 sudo awk {print}
+root      3969  0.0  0.0  10772  1016 pts/0    T    20:38   0:00 awk {print}
+ost       3988  0.0  0.0  10388  1184 pts/0    R+   20:39   0:00 ps aux

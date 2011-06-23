@@ -1,0 +1,9 @@
+c:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updater 2\Cosmo2EO Value Updater 2\bin\Debug\Cosmo2EO Value Updater 2.exe
+c:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updater 2\Cosmo2EO Value Updater 2\bin\Debug\Cosmo2EO Value Updater 2.pdb
+c:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updater 2\Cosmo2EO Value Updater 2\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updater 2\Cosmo2EO Value Updater 2\obj\x86\Debug\Cosmo2EO Value Updater 2.exe
+c:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updater 2\Cosmo2EO Value Updater 2\obj\x86\Debug\Cosmo2EO Value Updater 2.pdb
+C:\Documents and Settings\CHOLSTO\my documents\visual studio 2010\Projects\Cosmo2EO Value Updater 2\Cosmo2EO Value Updater 2\bin\Debug\Revilo.dll
+C:\Documents and Settings\CHOLSTO\my documents\visual studio 2010\Projects\Cosmo2EO Value Updater 2\Cosmo2EO Value Updater 2\bin\Debug\Revilo.pdb
+C:\Users\ost\Code\projects\vs2010\Cosmo2EO Value Updater 2\Cosmo2EO Value Updater 2\obj\x86\Debug\Cosmo2EO Value Updater 2.exe
+C:\Users\ost\Code\projects\vs2010\Cosmo2EO Value Updater 2\Cosmo2EO Value Updater 2\obj\x86\Debug\Cosmo2EO Value Updater 2.pdb

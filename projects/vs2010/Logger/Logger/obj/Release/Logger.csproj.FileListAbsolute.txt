@@ -1,0 +1,5 @@
+C:\Documents and Settings\CHOLSTO\my documents\visual studio 2010\Projects\Logger\Logger\bin\Release\Logger.dll
+C:\Documents and Settings\CHOLSTO\my documents\visual studio 2010\Projects\Logger\Logger\bin\Release\Logger.pdb
+C:\Documents and Settings\CHOLSTO\my documents\visual studio 2010\Projects\Logger\Logger\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\CHOLSTO\my documents\visual studio 2010\Projects\Logger\Logger\obj\Release\Logger.dll
+C:\Documents and Settings\CHOLSTO\my documents\visual studio 2010\Projects\Logger\Logger\obj\Release\Logger.pdb

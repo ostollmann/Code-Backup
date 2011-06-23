@@ -1,0 +1,37 @@
+#!/bin/sh 
+
+# Get this from environment if available, or use a default working
+# when invoked by build-dir.
+# Better yet might be generating this file on make check..
+#
+GPROCESSOR=${GPROCESSOR:=../../utilities/gprocessor}
+
+# NOTE: We're supposed to advance 10 frames.
+#	We allow 11 loop-backs (just for fun, we probably can support more)
+#
+FLAGS="-r11 -f10 -v"
+
+if [ -z "$1" ]; then
+	echo "Usage: `basename $0` <swffile> [<flags>]" >&2
+	exit 2
+fi
+
+
+in="$1"
+shift
+FLAGS="$FLAGS $@"
+out=`basename "${in}"`.trace-gnash
+logout=`basename "${in}"`.out
+logerr=`basename "${in}"`.err
+exp="${in}.trace"
+
+echo "Running ${GPROCESSOR} ${FLAGS} ${in}" >&2
+${GPROCESSOR} ${FLAGS} "$in" > $logout 2> $logerr
+if test "$?" != 0; then
+	echo "gprocessor returned an error"
+	exit 2
+fi
+
+grep TRACE -A40 ${logout} | sed '/^--$/d; s/.*TRACE: //; /\n*[0-9]:[0-9]*\].*/d; s/^$//;' > $out
+diff -u "$exp" "$out"
+exit $?

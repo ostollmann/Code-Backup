@@ -1,0 +1,9 @@
+C:\Documents and Settings\CHOLSTO\my documents\visual studio 2010\Projects\COSMO2EOINIT\COSMO2EOINIT\bin\Debug\COSMO2EOINIT.exe
+C:\Documents and Settings\CHOLSTO\my documents\visual studio 2010\Projects\COSMO2EOINIT\COSMO2EOINIT\bin\Debug\COSMO2EOINIT.pdb
+C:\Documents and Settings\CHOLSTO\my documents\visual studio 2010\Projects\COSMO2EOINIT\COSMO2EOINIT\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\CHOLSTO\my documents\visual studio 2010\Projects\COSMO2EOINIT\COSMO2EOINIT\obj\x86\Debug\COSMO2EOINIT.Main.resources
+C:\Documents and Settings\CHOLSTO\my documents\visual studio 2010\Projects\COSMO2EOINIT\COSMO2EOINIT\obj\x86\Debug\COSMO2EOINIT.Properties.Resources.resources
+C:\Documents and Settings\CHOLSTO\my documents\visual studio 2010\Projects\COSMO2EOINIT\COSMO2EOINIT\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\CHOLSTO\my documents\visual studio 2010\Projects\COSMO2EOINIT\COSMO2EOINIT\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\CHOLSTO\my documents\visual studio 2010\Projects\COSMO2EOINIT\COSMO2EOINIT\obj\x86\Debug\COSMO2EOINIT.exe
+C:\Documents and Settings\CHOLSTO\my documents\visual studio 2010\Projects\COSMO2EOINIT\COSMO2EOINIT\obj\x86\Debug\COSMO2EOINIT.pdb

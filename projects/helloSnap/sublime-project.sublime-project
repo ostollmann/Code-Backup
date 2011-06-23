@@ -1,0 +1,463 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"deco",
+				"decodedParam"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/ost/Code/projects/snap.com/snap-website/src/Main.hs",
+			"settings":
+			{
+				"buffer_size": 7551,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/ost/Desktop/Own_Latex/Own_Latex/Main.tex",
+			"settings":
+			{
+				"buffer_size": 5227,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/ost/Code/projects/helloSnap/src/Site.hs",
+			"settings":
+			{
+				"buffer_size": 2014,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/ost/Desktop/test.sass",
+			"settings":
+			{
+				"buffer_size": 193,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/ost/Desktop/dfm_promos_contacts_nq.csv",
+			"settings":
+			{
+				"buffer_size": 144574,
+				"line_ending": "Mac"
+			}
+		},
+		{
+			"file": "/C/Users/ost/Downloads/google.csv",
+			"settings":
+			{
+				"buffer_size": 546,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/ost/Downloads/contacts.csv",
+			"settings":
+			{
+				"buffer_size": 1273,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/ost/Code/projects/helloSnap/resources/templates/post.tpl",
+			"settings":
+			{
+				"buffer_size": 156,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/ost/Code/projects/helloSnap/resources/templates/index.tpl",
+			"settings":
+			{
+				"buffer_size": 847,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"file_history":
+	[
+		"/C/Users/ost/Desktop/Own_Latex/Own_Latex/Introduction.tex",
+		"/C/Users/ost/Code/projects/snap.com/snap-website/templates/docs/quickstart.tpl",
+		"/C/Users/ost/Code/projects/helloSnap/src/Application.hs",
+		"/C/Users/ost/Code/projects/helloSnap/src/Main.hs",
+		"/C/tmp/log",
+		"/C/Users/ost/Code/projects/snap-src/snap-server/src/Snap/Http/Server/Config.hs",
+		"/C/Users/ost/Code/projects/snap-src/snap-server/src/Snap/Http/Server.hs",
+		"/C/Users/ost/AppData/Roaming/cabal/snap-server-0.4.1/ghc-7.0.2/Snap/Internal/Http/Server.hi",
+		"/C/Users/ost/Code/haskell/site.config",
+		"/C/Users/ost/Code/haskell/lexer.hs",
+		"/C/Users/ost/Code/projects/hweb/Main.hs",
+		"/C/Users/ost/Code/projects/shwf/Main.hs",
+		"/C/Users/ost/Code/haskell/state.hs"
+	],
+	"find_in_files":
+	{
+		"include_history":
+		[
+			""
+		],
+		"location_history":
+		[
+			"<open folders>",
+			"C:\\Users\\ost\\Code",
+			"<open folders>",
+			"snap-src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"",
+			"\"\"",
+			"\"",
+			"bindSplices",
+			"loadSnapTH",
+			"commandLineConfig",
+			"quickHttpServe"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	{
+		"mount_points":
+		[
+			"/C/Users/ost/Code/projects/snap-src",
+			"/C/Users/ost/Code/projects/helloSnap",
+			"/C/Users/ost/Code/projects/snap.com"
+		]
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/ost/Code/projects/snap.com/snap-website/src/Main.hs",
+					"settings":
+					{
+						"buffer_size": 7551,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3811,
+								3811
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Haskell/Haskell.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 1569,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/ost/Desktop/Own_Latex/Own_Latex/Main.tex",
+					"settings":
+					{
+						"buffer_size": 5227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4732,
+								4734
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 1782,
+						"zoom_level": 1
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "/C/Users/ost/Code/projects/helloSnap/src/Site.hs",
+					"settings":
+					{
+						"buffer_size": 2014,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								226,
+								226
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Haskell/Haskell.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 162,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/ost/Desktop/test.sass",
+					"settings":
+					{
+						"buffer_size": 193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								193,
+								193
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/ost/Desktop/dfm_promos_contacts_nq.csv",
+					"settings":
+					{
+						"buffer_size": 144574,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5585,
+								5585
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 569,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/ost/Downloads/google.csv",
+					"settings":
+					{
+						"buffer_size": 546,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/ost/Downloads/contacts.csv",
+					"settings":
+					{
+						"buffer_size": 1273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1273,
+								1273
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/ost/Code/projects/helloSnap/resources/templates/post.tpl",
+					"settings":
+					{
+						"buffer_size": 156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								138,
+								138
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/ost/Code/projects/helloSnap/resources/templates/index.tpl",
+					"settings":
+					{
+						"buffer_size": 847,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								195,
+								195
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0,
+			0.0436320754715,
+			1
+		],
+		"rows":
+		[
+			0,
+			1
+		]
+	},
+	"menu_visible": true,
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0,
+		"selected_items":
+		[
+		],
+		"width": 0
+	},
+	"select_project":
+	{
+		"height": 0,
+		"selected_items":
+		[
+		],
+		"width": 0
+	},
+	"show_minimap": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224,
+	"status_bar_visible": true
+}

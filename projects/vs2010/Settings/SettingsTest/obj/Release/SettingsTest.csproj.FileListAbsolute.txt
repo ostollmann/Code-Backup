@@ -1,0 +1,7 @@
+C:\Users\ost\Code\projects\vs2010\Settings\SettingsTest\bin\Release\SettingsTest.dll
+C:\Users\ost\Code\projects\vs2010\Settings\SettingsTest\bin\Release\SettingsTest.pdb
+C:\Users\ost\Code\projects\vs2010\Settings\SettingsTest\bin\Release\Settings.dll
+C:\Users\ost\Code\projects\vs2010\Settings\SettingsTest\bin\Release\Settings.pdb
+C:\Users\ost\Code\projects\vs2010\Settings\SettingsTest\obj\Release\ResolveAssemblyReference.cache
+C:\Users\ost\Code\projects\vs2010\Settings\SettingsTest\obj\Release\SettingsTest.dll
+C:\Users\ost\Code\projects\vs2010\Settings\SettingsTest\obj\Release\SettingsTest.pdb

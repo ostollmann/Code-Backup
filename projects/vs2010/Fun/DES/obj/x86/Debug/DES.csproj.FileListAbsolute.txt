@@ -1,0 +1,5 @@
+C:\Users\ost\Code\projects\vs2010\Fun\DES\bin\Debug\DES.exe
+C:\Users\ost\Code\projects\vs2010\Fun\DES\bin\Debug\DES.pdb
+C:\Users\ost\Code\projects\vs2010\Fun\DES\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ost\Code\projects\vs2010\Fun\DES\obj\x86\Debug\DES.exe
+C:\Users\ost\Code\projects\vs2010\Fun\DES\obj\x86\Debug\DES.pdb

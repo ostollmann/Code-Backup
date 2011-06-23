@@ -1,0 +1,18 @@
+/*
+
+!primaryObjectColor = #CCC
+!secondaryObjectColor = red
+!primaryTextColor = #000
+!secondaryTextColor = red
+
+!headings = !primaryTextColor
+!sub-headings = !secondaryTextColor
+
+!text = !primaryTextColor
+!quote = !secondaryTextColor
+*/
+
+
+body {
+	color: !mainFont;
+}

@@ -1,0 +1,14 @@
+/**
+ * ------------------ Copyright Notice ------------------ *
+ * This code is, unless otherwise stated, the property    *
+ * of Oliver Stollmann. Copyright and other intellectual  *
+ * property laws protect this code. Reproduction or       *
+ * retransmission of it, in whole or in part, in any      *
+ * manner, without the prior written consent of the       *
+ * copyright holder, is a violation of copyright law.     *
+ * ------------------------------------------------------ *
+ *
+ * User: ost
+ * Date: ${DATE}
+ * Time: ${TIME}
+ */

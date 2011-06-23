@@ -1,0 +1,76 @@
+## Process this file with automake to generate Makefile.in
+# 
+#   Copyright (C) 2009, 2010 Free Software Foundation, Inc.
+# 
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 3 of the License, or
+# (at your option) any later version.
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+DESKTOPdir = $(srcdir)/desktop
+
+DESKTOP_TESTS_V9 = 
+
+if BUILD_CLIPBOARDFORMATS_AS3
+DESKTOP_TESTS_V9 += desktop/ClipboardFormats_as.swf
+endif
+
+if BUILD_CLIPBOARDTRANSFERMODE_AS3
+DESKTOP_TESTS_V9 += desktop/ClipboardTransferMode_as.swf
+endif
+
+if BUILD_CLIPBOARD_AS3
+DESKTOP_TESTS_V9 += desktop/Clipboard_as.swf
+endif
+
+if BUILD_DOCKICON_AS3
+DESKTOP_TESTS_V9 += desktop/DockIcon_as.swf
+endif
+
+if BUILD_ICON_AS3
+DESKTOP_TESTS_V9 += desktop/Icon_as.swf
+endif
+
+if BUILD_INTERACTIVEICON_AS3
+DESKTOP_TESTS_V9 += desktop/InteractiveIcon_as.swf
+endif
+
+if BUILD_NATIVEAPPLICATION_AS3
+DESKTOP_TESTS_V9 += desktop/NativeApplication_as.swf
+endif
+
+if BUILD_NATIVEDRAGACTIONS_AS3
+DESKTOP_TESTS_V9 += desktop/NativeDragActions_as.swf
+endif
+
+if BUILD_NATIVEDRAGMANAGER_AS3
+DESKTOP_TESTS_V9 += desktop/NativeDragManager_as.swf
+endif
+
+if BUILD_NATIVEDRAGOPTIONS_AS3
+DESKTOP_TESTS_V9 += desktop/NativeDragOptions_as.swf
+endif
+
+if BUILD_NOTIFICATIONTYPE_AS3
+DESKTOP_TESTS_V9 += desktop/NotificationType_as.swf
+endif
+
+if BUILD_SYSTEMTRAYICON_AS3
+DESKTOP_TESTS_V9 += desktop/SystemTrayIcon_as.swf
+endif
+
+if BUILD_UPDATER_AS3
+DESKTOP_TESTS_V9 += desktop/Updater_as.swf
+endif
+
+check_SCRIPTS += $(DESKTOP_TESTS_V9)
+HAXE_FLAGS += -cp $(DESKTOPdir)
+

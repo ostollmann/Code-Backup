@@ -1,0 +1,15 @@
+var maincolor = #000000;
+var seccolor = red;
+
+var pagewidth = 700px;
+var boxwidth = 350px;
+var boxheight = 300px;
+
+#box {
+	width: $boxwidth;
+	height: $boxheight;
+}
+
+body {
+	color: $maincolor;
+}

@@ -1,0 +1,1 @@
+--prefix=/usr --sysconfdir=/etc --with-npapi-plugindir=/usr/lib/mozilla/plugins --enable-gui=gtk --enable-z --enable-jpeg --enable-renderer=agg --enable-media=ffmpeg --enable-write --disable-cygnal

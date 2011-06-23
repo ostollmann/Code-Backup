@@ -1,0 +1,14 @@
+# Test for override whitelist
+set whitelist off
+
+# Don't access content from these sites
+# Test for append to list
+append blacklist www.gnashdev.org www.wikipedia.de
+
+append localSandboxPath /tmp/gnash
+
+# Use arbitrary renderer
+set Renderer fakeRenderer
+
+# Use arbitrary renderer
+set MediaHandler fakeMediaHandler

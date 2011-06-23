@@ -1,0 +1,5 @@
+C:\Users\ost\Code\projects\vs2010\Fun\MorphDict\bin\Debug\MorphDict.exe
+C:\Users\ost\Code\projects\vs2010\Fun\MorphDict\bin\Debug\MorphDict.pdb
+C:\Users\ost\Code\projects\vs2010\Fun\MorphDict\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ost\Code\projects\vs2010\Fun\MorphDict\obj\x86\Debug\MorphDict.exe
+C:\Users\ost\Code\projects\vs2010\Fun\MorphDict\obj\x86\Debug\MorphDict.pdb

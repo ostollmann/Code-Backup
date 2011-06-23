@@ -1,0 +1,43 @@
+body {
+  font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+}
+
+#logo {
+  height: 80px;
+  width: auto;
+}
+
+#page {
+  width: 100%;
+}
+
+#header {
+  height: 80px;
+}
+
+#banner-box {
+  background-color: white;
+  height: 250px;
+  width: 950px;
+  margin-left: 8%;
+  border: solid #ccc 1px;
+}
+
+#banner-title {
+  color: #0066FF;
+  font-size: 2em;
+}
+
+.banner-text {
+  color: #0066FF;
+  font-size: 1.1em;
+  font-weight: 100;
+}
+
+#body {
+  height: auto;
+}
+
+#footer {
+  height: auto;
+}

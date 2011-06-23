@@ -1,0 +1,7 @@
+c:\users\ost\documents\visual studio 2010\Projects\Tester1\Tester1\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\ost\documents\visual studio 2010\Projects\Tester1\Tester1\bin\Debug\Tester1.exe
+c:\users\ost\documents\visual studio 2010\Projects\Tester1\Tester1\bin\Debug\Tester1.pdb
+c:\users\ost\documents\visual studio 2010\Projects\Tester1\Tester1\bin\Debug\Settings.dll
+c:\users\ost\documents\visual studio 2010\Projects\Tester1\Tester1\bin\Debug\Settings.pdb
+c:\users\ost\documents\visual studio 2010\Projects\Tester1\Tester1\obj\x86\Debug\Tester1.exe
+c:\users\ost\documents\visual studio 2010\Projects\Tester1\Tester1\obj\x86\Debug\Tester1.pdb

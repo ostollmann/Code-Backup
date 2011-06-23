@@ -1,0 +1,6 @@
+c:\documents and settings\cholsto\my documents\visual studio 2010\Projects\COSMO2EOr\COSMO2EOr\bin\Debug\COSMO2EOr.exe.config
+c:\documents and settings\cholsto\my documents\visual studio 2010\Projects\COSMO2EOr\COSMO2EOr\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\cholsto\my documents\visual studio 2010\Projects\COSMO2EOr\COSMO2EOr\bin\Debug\COSMO2EOr.exe
+c:\documents and settings\cholsto\my documents\visual studio 2010\Projects\COSMO2EOr\COSMO2EOr\bin\Debug\COSMO2EOr.pdb
+c:\documents and settings\cholsto\my documents\visual studio 2010\Projects\COSMO2EOr\COSMO2EOr\obj\x86\Debug\COSMO2EOr.exe
+c:\documents and settings\cholsto\my documents\visual studio 2010\Projects\COSMO2EOr\COSMO2EOr\obj\x86\Debug\COSMO2EOr.pdb

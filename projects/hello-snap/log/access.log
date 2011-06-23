@@ -1,0 +1,3 @@
+127.0.0.1 - - [06/May/2011:21:54:54 +0200] "GET / HTTP/1.1" 200 - - "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.60 Safari/534.24"
+127.0.0.1 - - [06/May/2011:21:54:54 +0200] "GET /screen.css HTTP/1.1" 200 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.60 Safari/534.24"
+127.0.0.1 - - [06/May/2011:21:54:54 +0200] "GET /favicon.ico HTTP/1.1" 404 3 - "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.60 Safari/534.24"

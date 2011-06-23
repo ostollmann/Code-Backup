@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib/gnash
+includedir=${prefix}/include/gnash/
+
+Name: Gnash
+Description: Flash (shockwave) player
+Version: trunk
+Libs: -L${libdir} -lgnashcore
+Cflags: -I${includedir}
+

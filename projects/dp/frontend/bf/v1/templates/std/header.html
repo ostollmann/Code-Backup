@@ -1,0 +1,10 @@
+<div id="main_header">
+
+	<div id="main_header_auth_info">
+		{% if authenticated %}
+			<p>Hello, {{ username }}!</p>
+			<p>Last login: {{ last_login }}</p>
+		{% endif %}
+		
+	</div>
+</div>

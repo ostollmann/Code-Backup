@@ -1,0 +1,13 @@
+#header {
+  width: 400px;
+  height: 300px;
+  border: solid black 1px; }
+
+#footer {
+  width: 400px;
+  height: 800px;
+  border: solid black 1px; }
+
+body {
+  color: black;
+  font-size: medium; }

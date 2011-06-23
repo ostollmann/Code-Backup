@@ -1,0 +1,15 @@
+
+$primaryColor: #fff;
+$secondaryColor: #ccc;
+
+$pagewidth: 800px;
+
+
+@import "header";
+@import "body";
+@import "footer";
+
+body {
+	color: black;
+	font-size: medium;
+}

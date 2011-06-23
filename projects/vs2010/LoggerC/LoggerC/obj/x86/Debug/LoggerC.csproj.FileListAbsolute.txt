@@ -1,0 +1,5 @@
+c:\documents and settings\cholsto\my documents\visual studio 2010\Projects\LoggerC\LoggerC\bin\Debug\LoggerC.exe
+c:\documents and settings\cholsto\my documents\visual studio 2010\Projects\LoggerC\LoggerC\bin\Debug\LoggerC.pdb
+c:\documents and settings\cholsto\my documents\visual studio 2010\Projects\LoggerC\LoggerC\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\cholsto\my documents\visual studio 2010\Projects\LoggerC\LoggerC\obj\x86\Debug\LoggerC.exe
+c:\documents and settings\cholsto\my documents\visual studio 2010\Projects\LoggerC\LoggerC\obj\x86\Debug\LoggerC.pdb

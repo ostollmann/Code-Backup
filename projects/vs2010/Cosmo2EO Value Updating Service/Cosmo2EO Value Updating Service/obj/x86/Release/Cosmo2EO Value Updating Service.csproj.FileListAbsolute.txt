@@ -1,0 +1,9 @@
+C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Release\Cosmo2EO Value Updating Service.exe
+C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Release\Cosmo2EO Value Updating Service.pdb
+C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\obj\x86\Release\Cosmo2EO_Value_Updating_Service.ProjectInstaller.resources
+C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\obj\x86\Release\Cosmo2EO_Value_Updating_Service.Service1.resources
+C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\obj\x86\Release\Cosmo2EO Value Updating Service.exe
+C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\obj\x86\Release\Cosmo2EO Value Updating Service.pdb

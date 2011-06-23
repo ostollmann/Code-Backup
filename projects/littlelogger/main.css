@@ -1,0 +1,53 @@
+body {
+  font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+}
+
+#logo {
+  height: 40px;
+  width: auto;
+}
+
+#page {
+  width: 100%;
+}
+
+#header {
+  height: 80px;
+}
+
+#banner {
+  height: 350px;
+  width: 100%;
+
+  float: right;
+  background-image: url(banner-gradient.png);  
+}
+
+#banner-box {
+    
+  height: 200px;
+  width: 80%px;
+
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 30px;
+}
+
+#banner-title {
+  color: white;
+  font-size: 2em;
+}
+
+.banner-text {
+  color: white;
+  font-size: 1.1em;
+  font-weight: 100;
+}
+
+#body {
+  height: auto;
+}
+
+#footer {
+  height: auto;
+}

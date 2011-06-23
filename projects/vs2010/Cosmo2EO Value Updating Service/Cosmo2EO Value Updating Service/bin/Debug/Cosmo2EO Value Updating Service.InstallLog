@@ -1,0 +1,88 @@
+﻿Installing assembly 'C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.InstallLog
+   assemblypath = C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe assembly.
+Committing assembly 'C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.InstallLog
+   assemblypath = C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.InstallLog
+   assemblypath = C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe
+Installing service Cosmo2EO Value Updating Service...
+Creating EventLog source Cosmo2EO Value Updating Service in log Application...
+Rolling back assembly 'C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.InstallLog
+   assemblypath = C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe
+Restoring event log to previous state for source Cosmo2EO Value Updating Service.
+Installing assembly 'C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.InstallLog
+   assemblypath = C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe
+Installing service Cosmo2EO Value Updating Service...
+Service Cosmo2EO Value Updating Service has been successfully installed.
+Creating EventLog source Cosmo2EO Value Updating Service in log Application...
+Committing assembly 'C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.InstallLog
+   assemblypath = C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe
+Installing assembly 'C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.InstallLog
+   assemblypath = C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe assembly.
+Committing assembly 'C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.InstallLog
+   assemblypath = C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.InstallLog
+   assemblypath = C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe
+Rolling back assembly 'C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.InstallLog
+   assemblypath = C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe
+Installing assembly 'C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.InstallLog
+   assemblypath = C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe
+Installing service Cosmo2EO Value Updating Service...
+Creating EventLog source Cosmo2EO Value Updating Service in log Application...
+Rolling back assembly 'C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.InstallLog
+   assemblypath = C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe
+Restoring event log to previous state for source Cosmo2EO Value Updating Service.
+Installing assembly 'C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.InstallLog
+   assemblypath = C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe
+Installing service Cosmo2EO Value Updating Service...
+Service Cosmo2EO Value Updating Service has been successfully installed.
+Creating EventLog source Cosmo2EO Value Updating Service in log Application...
+Committing assembly 'C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.InstallLog
+   assemblypath = C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\Cosmo2EO Value Updating Service\Cosmo2EO Value Updating Service\bin\Debug\Cosmo2EO Value Updating Service.exe

@@ -1,0 +1,9 @@
+C:\Documents and Settings\CHOLSTO\my documents\visual studio 2010\Projects\COSMO2EOINIT\COSMO2EOINIT\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\CHOLSTO\my documents\visual studio 2010\Projects\COSMO2EOINIT\COSMO2EOINIT\obj\x86\Release\COSMO2EOINIT.Main.resources
+C:\Documents and Settings\CHOLSTO\my documents\visual studio 2010\Projects\COSMO2EOINIT\COSMO2EOINIT\obj\x86\Release\COSMO2EOINIT.Properties.Resources.resources
+C:\Documents and Settings\CHOLSTO\my documents\visual studio 2010\Projects\COSMO2EOINIT\COSMO2EOINIT\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\CHOLSTO\my documents\visual studio 2010\Projects\COSMO2EOINIT\COSMO2EOINIT\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\COSMO2EOINIT\COSMO2EOINIT\bin\Release\Cosmo2EO Initialization and Update Tool.exe
+C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\COSMO2EOINIT\COSMO2EOINIT\bin\Release\Cosmo2EO Initialization and Update Tool.pdb
+C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\COSMO2EOINIT\COSMO2EOINIT\obj\x86\Release\Cosmo2EO Initialization and Update Tool.exe
+C:\Documents and Settings\CHOLSTO\My Documents\Visual Studio 2010\Projects\COSMO2EOINIT\COSMO2EOINIT\obj\x86\Release\Cosmo2EO Initialization and Update Tool.pdb

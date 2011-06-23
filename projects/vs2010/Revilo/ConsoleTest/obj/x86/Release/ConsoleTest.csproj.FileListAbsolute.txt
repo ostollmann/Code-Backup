@@ -1,0 +1,7 @@
+C:\Users\ost\Code\projects\vs2010\Revilo\ConsoleTest\bin\Release\ConsoleTest.exe
+C:\Users\ost\Code\projects\vs2010\Revilo\ConsoleTest\bin\Release\ConsoleTest.pdb
+C:\Users\ost\Code\projects\vs2010\Revilo\ConsoleTest\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\ost\Code\projects\vs2010\Revilo\ConsoleTest\obj\x86\Release\ConsoleTest.exe
+C:\Users\ost\Code\projects\vs2010\Revilo\ConsoleTest\obj\x86\Release\ConsoleTest.pdb
+C:\Users\ost\Code\projects\vs2010\Revilo\ConsoleTest\bin\Release\Revilo.dll
+C:\Users\ost\Code\projects\vs2010\Revilo\ConsoleTest\bin\Release\Revilo.pdb

@@ -1,0 +1,8 @@
+if (a < 10)
+    return a;
+else
+    return 10;
+
+function test(string str) {
+    print "hello World!\n:!";
+}

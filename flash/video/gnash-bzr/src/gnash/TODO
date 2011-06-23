@@ -1,0 +1,46 @@
+
+		TODO: (not really in order of priorities)
+
+  - SWF 8 support. This is mostly adding support
+    for blend modes and bitmap filters.
+  - SWF 9 / AVM2 support.
+  - RTMP support.
+  - IO redesign.
+  - Performance improvements, and reducing the footprint.
+  - Custom ActionScript plugins (think MySQL support in Flash).
+  - Implement all the missing player classes/methods.
+  - SVG support ?
+  - Keep improving the plugin (+ add GTK1 support).
+
+Unimplemented opcodes:
+----------------------
+
+0x08:	// toggle quality
+
+Partially implemented classes are:
+----------------------------------
+
+NetConnection
+LocalConnection
+...
+
+Unimplemented classes are:
+--------------------------
+Accessibility
+Error
+Microphone
+Selection
+Camera
+ContextMenu
+CustomActions
+...
+
+Others
+------
+
+If you would like to contribute to Gnash's development, please
+subscribe to the developers list at
+http://lists.gnu.org/mailman/listinfo/gnash-dev, and let us know what
+you'd like to work on. Your help is always appreciated as Gnash is a
+community project.
+

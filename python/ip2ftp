@@ -1,0 +1,2 @@
+#!/bin/bash
+python /home/ost/code/python/ip2ftp.py

@@ -1,0 +1,10 @@
+a = 10;
+%fprintf('%d', a);
+
+
+clear, syms x;
+f ='4=x^2';
+x_sol = solve(f,x);
+fprintf('x1=%d, x2=%d\n', double(x_sol(1)), double(x_sol(2)));
+
+%output: x1=-2, x2=2

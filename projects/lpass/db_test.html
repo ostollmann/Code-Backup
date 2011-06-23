@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <script type="text/javascript">
+
+            function write1(){
+                var fname = "Olive111r";
+                var lname = "Stollmann";
+                try {
+                    window.localStorage.fname = fname;
+                    window.localStorage.lname = lname;            
+                } catch(e) {
+                    alert("ERROR: " + e);
+                }
+                alert("wrote!");
+            }
+
+            function read(){
+
+                try {
+                    document.write("First Name: " + window.localStorage.getItem("fname") + "<br />");                    
+                } catch(r) {
+                    alert("ERROR: " + r);
+                }
+
+                try {
+                    document.write("Last Name: " + window.localStorage.getItem("lname") + "<br />");                    
+                } catch(r) {
+                    alert("ERROR: " + r);
+                }
+            }
+
+            // function connectToDB(db_name, db_vers, db_desc, db_size) {
+            //     return openDatabase(db_name, db_vers, db_desc, db_size);
+            // }
+
+            // function createTestTable(db, sqlc, sqli) {
+            //     db.transaction(function(tx) {
+            //         tx.executeSql(sqlc);
+            //         tx.executeSql(sqli);  
+            //     });
+            // }
+
+            // function getAll(db, sqlq, cb) {
+            //     db.transaction(function(tx) {
+            //         tx.executeSql(sqlq, [], cb);
+            //     });
+            // }
+
+            // function printAll(tx, result) {
+            //     var len = result.rows.length, i;
+            //     alert(len);
+            //     for (i = 0; i < len; i++) {
+            //         alert(result.rows.item(i).text);
+            //     }
+            // }
+
+            // function run(){
+            //     var db_name = "test_db";
+            //     var db_vers = "0.1";
+            //     var db_desc = "test database for lpass";
+            //     var db_size = 2*1024*1024;
+        
+            //     var createTableSQL = "CREATE TABLE IF NOT EXISTS foo (id unique, text)";
+            //     var insertRowSQL = "INSERT INTO foo (id, text) VALUES (1, 'synergies')";
+            //     var selectAllSQL = "SELECT * FROM FOO";
+
+            //     var db = connectToDB(db_name, db_vers, db_desc, db_size);
+            //     alert("connected!");
+            //     createTestTable(db, createTableSQL, insertRowSQL);
+            //     alert("inserted!");
+            //     getAll(db, selectAllSQL, printAll());
+            //     alert("got!");
+            // }
+
+
+        </script>
+
+    </head>
+    <body>
+        <a href="#" onClick="write1()">write</a>
+        <br />
+        <a href="#" onClick="read()">read</a>
+        
+    </body>
+
+</html>

@@ -1,0 +1,6 @@
+import binascii
+
+num = '123456789'
+
+bin = binascii.a2b_base64(num)
+print bin

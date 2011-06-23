@@ -1,0 +1,18 @@
+//
+// main.ogpl
+//
+
+func nill:hello_world:nill
+	print:"hello, world!"
+endfunc
+
+func sum:sum:a,b
+	sum = a + b
+endfunc
+
+func parts:split:str
+	parts = list
+	for s in str
+		parts += s
+	endfor
+endfunc

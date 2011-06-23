@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "language.dtd">
+<language _name="ActionScript 3" version="1.0" _section="Sources" mimetypes="text/x-shockwave">
+	
+	<string _name = "String" style = "String" end-at-line-end = "TRUE">
+		<start-regex>&quot;</start-regex>
+		<end-regex>&quot;</end-regex>
+	</string>
+
+	<string _name = "String 2" style = "String" end-at-line-end = "TRUE">
+		<start-regex>&apos;</start-regex>
+		<end-regex>&apos;</end-regex>
+	</string>
+
+	<line-comment _name = "Line Comment" style= "Comment">
+		<start-regex>//</start-regex>
+	</line-comment>
+
+	<block-comment _name = "Block Comment" style = "Comment">
+		<start-regex>/\*</start-regex>
+        	<end-regex>\*/</end-regex>
+	</block-comment>
+
+	<keyword-list _name = "Declarations" style = "Keyword" case-sensitive="TRUE">
+		<keyword>class</keyword>
+		<keyword>package</keyword>
+		<keyword>extends</keyword>
+		<keyword>implements</keyword>
+	</keyword-list>
+
+
+	<keyword-list _name = "Flow" style = "Keyword" case-sensitive="TRUE">
+		<keyword>as</keyword>
+		<keyword>break</keyword>
+		<keyword>case</keyword>
+		<keyword>continue</keyword>
+		<keyword>default</keyword>
+		<keyword>do</keyword>
+      		<keyword>else</keyword>
+		<keyword>if</keyword>
+		<keyword>for</keyword>
+		<keyword>in</keyword>
+		<keyword>is</keyword>
+		<keyword>switch</keyword>
+		<keyword>while</keyword>
+	</keyword-list>
+
+
+
+	<keyword-list _name = "Modifiers" style = "Keyword" case-sensitive="TRUE">
+		<keyword>private</keyword>
+		<keyword>public</keyword>
+		<keyword>import</keyword>
+		<keyword>protected</keyword>
+		<keyword>return</keyword>
+		<keyword>void</keyword>
+	</keyword-list>
+	
+	<keyword-list _name = "Error Catching" style = "Keyword" case-sensitive="TRUE">
+		<keyword>try</keyword>
+		<keyword>catch</keyword>
+		<keyword>throw</keyword>
+		<keyword>finally</keyword>
+		<keyword>use</keyword>
+	</keyword-list>
+
+
+	<keyword-list _name = "Objects" style = "Keyword" case-sensitive="TRUE">
+		<keyword>delete</keyword>
+		<keyword>instanceof</keyword>
+		<keyword>internal</keyword>
+		<keyword>to</keyword>
+		<keyword>typeof</keyword>
+		<keyword>with</keyword>
+		<keyword>new</keyword>
+		<keyword>super</keyword>
+		<keyword>this</keyword>
+	</keyword-list>
+
+
+	<keyword-list _name = "Memory" style = "Others" case-sensitive="TRUE">
+		<keyword>false</keyword>
+		<keyword>null</keyword>
+		<keyword>true</keyword>
+	</keyword-list>
+
+	<keyword-list _name = "Function Declaration" style = "Keyword" case-sensitive="TRUE">
+		<keyword>function</keyword>
+		<keyword>var</keyword>
+		<keyword>const</keyword>
+	</keyword-list>
+
+	<keyword-list _name = "Syntactic Keywords" style = "Keyword" case-sensitive="TRUE">
+		<keyword>each</keyword>
+		<keyword>get</keyword>
+		<keyword>set</keyword>
+		<keyword>namespace</keyword>
+		<keyword>include</keyword>
+		<keyword>dynamic</keyword>
+		<keyword>final</keyword>
+		<keyword>native</keyword>
+		<keyword>override</keyword>
+		<keyword>static</keyword>
+	</keyword-list>
+	
+
+
+	<keyword-list _name = "Future Reserved Words" style = "Specials" case-sensitive="FALSE">
+		<keyword>abstract</keyword>
+		<keyword>boolean</keyword>
+		<keyword>byte</keyword>
+		<keyword>cast</keyword>
+		<keyword>char</keyword>
+		<keyword>debugger</keyword>
+		<keyword>double</keyword>
+		<keyword>enum</keyword>
+		<keyword>export</keyword>
+		<keyword>float</keyword>
+		<keyword>goto</keyword>
+		<keyword>intrinsic</keyword>
+		<keyword>long</keyword>
+		<keyword>prototype</keyword>
+		<keyword>short</keyword>
+		<keyword>synchronized</keyword>
+		<keyword>throws</keyword>
+		<keyword>transient</keyword>
+		<keyword>type</keyword>
+		<keyword>virtual</keyword>
+		<keyword>volatile</keyword>
+	</keyword-list>
+
+	<pattern-item _name = "Numeric" style = "Decimal">
+		<regex>(\b([0-9]+|0[xX][0-9a-fA-F]+)[Ll]?\b|\b(([0-9]+[Ee][-]?[0-9]+|([0-9]*\.[0-9]+|[0-9]+\.)([Ee][-]?[0-9]+)?)[fFdD]?|[0-9]+[FfDd]))</regex>
+	</pattern-item>
+
+</language>

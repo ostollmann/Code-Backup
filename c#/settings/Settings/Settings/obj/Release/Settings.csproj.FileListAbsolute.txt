@@ -1,0 +1,5 @@
+c:\users\ost\documents\visual studio 2010\Projects\Settings\Settings\bin\Release\Settings.dll
+c:\users\ost\documents\visual studio 2010\Projects\Settings\Settings\bin\Release\Settings.pdb
+c:\users\ost\documents\visual studio 2010\Projects\Settings\Settings\obj\Release\ResolveAssemblyReference.cache
+c:\users\ost\documents\visual studio 2010\Projects\Settings\Settings\obj\Release\Settings.dll
+c:\users\ost\documents\visual studio 2010\Projects\Settings\Settings\obj\Release\Settings.pdb

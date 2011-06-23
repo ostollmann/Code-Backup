@@ -1,0 +1,5 @@
+c:\documents and settings\cholsto\my documents\visual studio 2010\Projects\Revilo\Revilo\obj\Release\ResolveAssemblyReference.cache
+c:\documents and settings\cholsto\my documents\visual studio 2010\Projects\Revilo\Revilo\bin\Release\Revilo.dll
+c:\documents and settings\cholsto\my documents\visual studio 2010\Projects\Revilo\Revilo\bin\Release\Revilo.pdb
+c:\documents and settings\cholsto\my documents\visual studio 2010\Projects\Revilo\Revilo\obj\Release\Revilo.dll
+c:\documents and settings\cholsto\my documents\visual studio 2010\Projects\Revilo\Revilo\obj\Release\Revilo.pdb

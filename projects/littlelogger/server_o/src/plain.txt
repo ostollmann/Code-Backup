@@ -1,0 +1,24 @@
+$HTTP["host"] =~ "(^|\.)pastebin.example\.com$" {
+  server.document-root = "/path/tp/pastebin/public_html" 
+  accesslog.filename = "/var/log/lighttpd/pastebin.access.log" 
+  static-file.exclude-extensions = ( ".php", ".pl", ".fcgi" )
+  fastcgi.server = (
+    ".php" => (
+      "localhost" => (
+        "bin-path" => "/usr/local/bin/php-cgi",
+        "socket" => "/tmp/php-pastebin.socket",
+        "max-procs" => 2,
+        "bin-copy-environment" => (
+          "PATH", "SHELL", "USER" 
+        )
+      )
+    )
+  )
+  compress.cache-dir = "/var/www/cache/pastebin/" 
+  url.rewrite-once = (
+        "^/pastebin\.(css|js)" => "$0",
+        "^/diff/(.*)" => "/pastebin.php?diff=$1",
+        "^/dl/(.*)" => "/pastebin.php?dl=$1",
+        "^/(.*)" => "/pastebin.php?show=$1" 
+  )
+}

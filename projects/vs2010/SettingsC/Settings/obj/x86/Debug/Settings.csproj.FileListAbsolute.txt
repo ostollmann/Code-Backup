@@ -1,0 +1,5 @@
+c:\users\ost\documents\visual studio 2010\Projects\Settings\Settings\bin\Debug\Settings.exe
+c:\users\ost\documents\visual studio 2010\Projects\Settings\Settings\bin\Debug\Settings.pdb
+c:\users\ost\documents\visual studio 2010\Projects\Settings\Settings\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\ost\documents\visual studio 2010\Projects\Settings\Settings\obj\x86\Debug\Settings.exe
+c:\users\ost\documents\visual studio 2010\Projects\Settings\Settings\obj\x86\Debug\Settings.pdb

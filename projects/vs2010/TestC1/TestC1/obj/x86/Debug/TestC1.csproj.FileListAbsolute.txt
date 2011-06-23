@@ -1,0 +1,7 @@
+c:\documents and settings\cholsto\my documents\visual studio 2010\Projects\TestC1\TestC1\bin\Debug\TestC1.exe
+c:\documents and settings\cholsto\my documents\visual studio 2010\Projects\TestC1\TestC1\bin\Debug\TestC1.pdb
+c:\documents and settings\cholsto\my documents\visual studio 2010\Projects\TestC1\TestC1\bin\Debug\Logger.dll
+c:\documents and settings\cholsto\my documents\visual studio 2010\Projects\TestC1\TestC1\bin\Debug\Logger.pdb
+c:\documents and settings\cholsto\my documents\visual studio 2010\Projects\TestC1\TestC1\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\cholsto\my documents\visual studio 2010\Projects\TestC1\TestC1\obj\x86\Debug\TestC1.exe
+c:\documents and settings\cholsto\my documents\visual studio 2010\Projects\TestC1\TestC1\obj\x86\Debug\TestC1.pdb
